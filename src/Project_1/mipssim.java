@@ -388,6 +388,7 @@ public class mipssim {
     }
     
     //returns small string of registers and data being used for instruction
+    //coined "The Brick"
     public static String getInstString(String test) {
         String opName = determineOP(test);
         String instString;
