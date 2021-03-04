@@ -90,7 +90,6 @@ public class mipssim {
         testInst = binary[(PC - 96) / 4];
         PC = printSim(testInst, cycleNum, foutSim);
         
-        foutDis.close();
         foutSim.close();
     }
     
