@@ -1,4 +1,3 @@
 all:
-    javac mipssim.java
-    java mipssim.java
-    @echo "Compiling and running mipssim.java"
+    javac -d . mipssim.java
+    @echo "type: 'java mipssim.java' to run the program."
