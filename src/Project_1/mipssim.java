@@ -52,7 +52,7 @@ public class mipssim {
         String[] binary = new String[0];
         
         //yoinked from provided "EX_readBinaryFile.java"
-        File file = new File("test1.bin");
+        File file = new File("test3.bin");
         byte[] fileData = new byte[(int) file.length()];
         DataInputStream dis = new DataInputStream(new FileInputStream(file));
         dis.readFully(fileData);
