@@ -1,2 +1,2 @@
 all:
-    javac mipssim.class
+    javac mipssim.java
