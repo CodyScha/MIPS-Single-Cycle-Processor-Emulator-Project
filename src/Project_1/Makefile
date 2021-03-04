@@ -1,2 +1,2 @@
 all:
-    javac mipssim.java
+    echo 'this is a java program'
