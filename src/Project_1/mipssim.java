@@ -47,12 +47,15 @@ public class mipssim {
     public static final int BREAK_SPEC = 13;
     
     public static void main(String[] args) throws IOException {
-        PrintWriter foutSim = new PrintWriter(new File("OUTPUTFILENAME_sim.txt"));
-        PrintWriter foutDis = new PrintWriter(new File("OUTPUTFILENAME_dis.txt"));
+	String inName = args[1] + ".bin";
+	String simName = args[3] + "_sim.txt";
+	String disName = args[3] + "_dis.txt";
+        PrintWriter foutSim = new PrintWriter(new File(simName));
+        PrintWriter foutDis = new PrintWriter(new File(disName));
         String[] binary = new String[0];
         
         //yoinked from provided "EX_readBinaryFile.java"
-        File file = new File("test3.bin");
+        File file = new File(inName);
         byte[] fileData = new byte[(int) file.length()];
         DataInputStream dis = new DataInputStream(new FileInputStream(file));
         dis.readFully(fileData);

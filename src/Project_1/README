@@ -1,0 +1,10 @@
+Scott DeLozier --sdelozi@siue.edu
+Jared Wright --jarewri@siue.edu
+Cody Schaefer --codscha@siue.edu
+
+Instuctions--
+type make, additional instructions given there.
+When running using 'java mipssim.java -i NAMEOFINPUT -o NAMEOFOUTPUT',
+do not type file extensions for NAMEOFINPUT and NAMEOFOUTPUT. 
+For example, you could type:
+'java mipssim.java -i test1 -o xxx'
